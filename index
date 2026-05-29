@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>OROVA – Joyería de Oro 10K | ZMG Jalisco</title>
+  <meta name="description" content="Joyería de oro 10K auténtica y certificada. Cadenas, aretes, arracadas, pulseras y huggies. Entrega personal en ZMG Jalisco. Escríbenos por WhatsApp." />
+  <meta property="og:title" content="OROVA – Joyería de Oro 10K" />
+  <meta property="og:description" content="Joyería de oro 10K auténtica. Piezas con stock disponible. Entrega personal en ZMG Jalisco." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://orova.mx/" />
+  <meta property="og:image" content="https://orova.mx/og-image.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <link rel="canonical" href="https://orova.mx/" />
+  <meta name="robots" content="index, follow" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:image" content="https://orova.mx/og-image.jpg" />
+  <meta name="theme-color" content="#1A1714" />
+
+  <!--
+    SEGURIDAD — notas para el servidor (no se pueden aplicar solo desde HTML):
+    Agregar en la configuración del servidor web (nginx/apache/headers):
+      X-Content-Type-Options: nosniff
+      X-Frame-Options: DENY
+      Referrer-Policy: strict-origin-when-cross-origin
+      Permissions-Policy: camera=(), microphone=(), geolocation=()
+  -->
+
+  <!--
+    CSP: script-src y style-src usan 'self' sin 'unsafe-inline'.
+    Todo el JS vive en app.js y todo el CSS en styles.css.
+    No hay atributos style="" ni scripts inline en el documento.
+  -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; object-src 'none'; frame-ancestors 'none'; base-uri 'self'; form-action 'none'" />
+
+  <!-- Política de referencia: solo envía el origen, nunca la ruta completa -->
+  <meta name="referrer" content="strict-origin-when-cross-origin" />
+
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cpolygon points='50,5 95,50 50,95 5,50' stroke='%23C9A84C' stroke-width='6' fill='%231A1714'/%3E%3Ccircle cx='50' cy='50' r='10' fill='%23C9A84C'/%3E%3C/svg%3E" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Jost:wght@200;300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "JewelryStore",
+    "name": "OROVA",
+    "description": "Joyería de oro 10K auténtica y certificada. Cadenas, aretes, arracadas, pulseras y huggies.",
+    "url": "https://orova.mx",
+    "telephone": "+522295953489",
+    "image": "https://orova.mx/og-image.jpg",
+    "priceRange": "$$",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Guadalajara",
+      "addressRegion": "Jalisco",
+      "addressCountry": "MX"
+    },
+    "sameAs": ["https://www.instagram.com/orova_gold"]
+  }
+  </script>
+  <!-- Todo el JavaScript de la página está en app.js (sin código en línea) -->
+  <script src="app.js" defer></script>
+</head>
+<body>
+
+<a href="#mainContent" class="skip-link">Saltar al contenido principal</a>
+
+<!-- SVG sprite en el body (compatible con iOS Safari) -->
+<svg class="svg-sprite">
+  <symbol id="icon-wa" viewBox="0 0 24 24">
+    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+  </symbol>
+  <symbol id="icon-ig" viewBox="0 0 24 24">
+    <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+  </symbol>
+</svg>
+
+<!-- Cursor (solo desktop) -->
+<div class="cursor-wrap" id="cursorWrap" aria-hidden="true">
+  <svg width="18" height="18" viewBox="0 0 100 100" fill="none">
+    <polygon points="50,5 95,50 50,95 5,50" stroke="#C9A84C" stroke-width="8" fill="none"/>
+    <polygon points="50,22 78,50 50,78 22,50" stroke="#C9A84C" stroke-width="5" fill="none"/>
+    <line x1="50" y1="5" x2="50" y2="95" stroke="#C9A84C" stroke-width="3" stroke-dasharray="6 8" opacity="0.7"/>
+    <circle cx="50" cy="50" r="9" fill="#C9A84C"/>
+  </svg>
+</div>
+<div class="cursor-ring" id="cursorRing" aria-hidden="true"></div>
+
+<!-- Botón flotante WhatsApp — URL base directa (no depende de JS) -->
+<a id="floatWa" href="https://wa.me/522295953489" class="float-wa" target="_blank" rel="noopener noreferrer" aria-label="Contactar OROVA por WhatsApp">
+  <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#icon-wa"/></svg>
+</a>
+
+<!-- Overlay que cierra el menú móvil al tocar fuera -->
+<div class="mobile-menu-overlay" id="menuOverlay" aria-hidden="true"></div>
+
+<!-- Menú móvil -->
+<div class="mobile-menu" id="mobileMenu" role="dialog" aria-modal="true" aria-label="Menú de navegación">
+  <button type="button" class="mobile-menu-close" id="mobileMenuClose" aria-label="Cerrar menú">×</button>
+  <a href="#catalogo">Catálogo</a>
+  <a href="#sobre-el-oro">Sobre el oro</a>
+  <a href="#envio">Entrega</a>
+  <a href="#contacto">Contacto</a>
+</div>
+
+<nav id="mainNav">
+  <a href="#" class="orova-logo" aria-label="OROVA inicio">
+    <svg class="mark" viewBox="0 0 100 100" fill="none" aria-hidden="true">
+      <polygon points="50,5 95,50 50,95 5,50" stroke="#C9A84C" stroke-width="2.5" fill="none"/>
+      <polygon points="50,20 80,50 50,80 20,50" stroke="#C9A84C" stroke-width="1.5" fill="none"/>
+      <line x1="50" y1="5" x2="50" y2="95" stroke="#C9A84C" stroke-width="0.8" stroke-dasharray="3 4" opacity="0.6"/>
+      <circle cx="50" cy="50" r="6" fill="#C9A84C"/>
+    </svg>
+    <div class="wordmark"><span class="name">OROVA</span><span class="sub">Oro 10K</span></div>
+  </a>
+  <ul class="nav-links" role="list">
+    <li><a href="#catalogo" data-section="catalogo">Catálogo</a></li>
+    <li><a href="#sobre-el-oro" data-section="sobre-el-oro">Sobre el oro</a></li>
+    <li><a href="#envio" data-section="envio">Entrega</a></li>
+    <li><a href="#contacto" data-section="contacto">Contacto</a></li>
+  </ul>
+  <div class="nav-right">
+    <a href="https://www.instagram.com/orova_gold?igsh=MW9mbTE3ZmhqdWhraQ%3D%3D&utm_source=qr" class="nav-ig" target="_blank" rel="noopener noreferrer" aria-label="Instagram de OROVA">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#icon-ig"/></svg>
+      @orova_gold
+    </a>
+    <a id="navWa" href="https://wa.me/522295953489" class="nav-wa" target="_blank" rel="noopener noreferrer">Consultar</a>
+    <button type="button" class="nav-hamburger" id="hamburgerBtn" aria-label="Abrir menú" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<main id="mainContent">
+<section class="hero" id="inicio">
+  <div class="hero-bg"></div>
+  <div class="hero-line"></div>
+  <svg class="hero-diamond-bg" width="520" height="520" viewBox="0 0 100 100" fill="none" aria-hidden="true">
+    <polygon points="50,2 98,50 50,98 2,50" stroke="#C9A84C" stroke-width="0.8" fill="none"/>
+    <polygon points="50,18 82,50 50,82 18,50" stroke="#C9A84C" stroke-width="0.5" fill="none"/>
+    <line x1="50" y1="2" x2="50" y2="98" stroke="#C9A84C" stroke-width="0.4" stroke-dasharray="2 3" opacity="0.7"/>
+    <circle cx="50" cy="50" r="5" fill="#C9A84C" opacity="0.8"/>
+  </svg>
+  <div class="hero-content">
+    <div class="hero-tag">Joyería de Oro 10K · OROVA</div>
+    <h1>Oro que <em>define</em><br>tu estilo</h1>
+    <p>Cada pieza OROVA está elaborada en oro 10K certificado. Durabilidad, brillo y elegancia pensados para quien los usa cada día.</p>
+    <div class="hero-cta">
+      <a href="#catalogo" class="btn-primary">Ver catálogo</a>
+      <a id="heroBtnWa" href="https://wa.me/522295953489" class="btn-secondary" target="_blank" rel="noopener noreferrer">Pedir por WhatsApp</a>
+    </div>
+  </div>
+  <div class="hero-stats" aria-hidden="true">
+    <div class="hero-stat"><div class="number">10K</div><div class="label">Oro certificado</div></div>
+    <div class="hero-divider"></div>
+    <div class="hero-stat"><div class="number">100%</div><div class="label">Oro auténtico</div></div>
+    <div class="hero-divider"></div>
+    <div class="hero-stat"><div class="number">∞</div><div class="label">Elegancia duradera</div></div>
+  </div>
+</section>
+
+<div class="marquee-wrap" aria-hidden="true">
+  <div class="marquee-track">
+    <span class="marquee-item">Oro 10K ◆</span><span class="marquee-item">Joyería certificada ◆</span>
+    <span class="marquee-item">Cadenas ◆</span><span class="marquee-item">Aretes ◆</span>
+    <span class="marquee-item">Pulseras ◆</span><span class="marquee-item">Arracadas ◆</span>
+    <span class="marquee-item">OROVA Gold ◆</span><span class="marquee-item">ZMG Jalisco ◆</span>
+    <span class="marquee-item">Oro 10K ◆</span><span class="marquee-item">Joyería certificada ◆</span>
+    <span class="marquee-item">Cadenas ◆</span><span class="marquee-item">Aretes ◆</span>
+    <span class="marquee-item">Pulseras ◆</span><span class="marquee-item">Arracadas ◆</span>
+    <span class="marquee-item">OROVA Gold ◆</span><span class="marquee-item">ZMG Jalisco ◆</span>
+  </div>
+</div>
+
+<!-- CATÁLOGO -->
+<section class="section" id="catalogo">
+  <div class="section-header">
+    <div>
+      <div class="section-tag">Stock disponible</div>
+      <h2 class="section-title">Nuestro <em>catálogo</em></h2>
+    </div>
+    <p class="section-sub">Solo mostramos piezas con stock disponible. Escríbenos por WhatsApp para hacer tu pedido.</p>
+  </div>
+  <fieldset class="filters" id="filterGroup">
+    <legend class="sr-only">Filtrar por categoría</legend>
+    <button type="button" class="filter-btn active" data-filter="all" aria-pressed="true">Todos</button>
+    <button type="button" class="filter-btn" data-filter="CAD" aria-pressed="false">Cadenas</button>
+    <button type="button" class="filter-btn" data-filter="ARE" aria-pressed="false">Aretes</button>
+    <button type="button" class="filter-btn" data-filter="ARR" aria-pressed="false">Arracadas</button>
+    <button type="button" class="filter-btn" data-filter="PUL" aria-pressed="false">Pulseras</button>
+    <button type="button" class="filter-btn" data-filter="HUG" aria-pressed="false">Huggies</button>
+  </fieldset>
+  <div class="catalog-grid" id="catalogGrid" aria-live="polite"></div>
+</section>
+
+<!-- POR QUÉ 10K -->
+<section class="tenk-section" id="sobre-el-oro">
+  <div class="tenk-content">
+    <div>
+      <div class="section-tag">¿Por qué oro 10K?</div>
+      <h2 class="section-title section-title--mb">La elección <em>inteligente</em></h2>
+      <div class="tenk-purity">10K</div>
+      <div class="tenk-label">41.7% oro puro · La joya más duradera</div>
+      <p class="tenk-p">El oro 10K es ideal para joyería de uso diario. Mayor resistencia a rayones y deformaciones, brillo duradero y precio accesible sin sacrificar la autenticidad del oro real.</p>
+    </div>
+    <div class="tenk-right">
+      <div class="tenk-card">
+        <div class="tenk-icon"><svg width="32" height="32" viewBox="0 0 32 32" fill="none" aria-hidden="true"><polygon points="16,2 30,16 16,30 2,16" stroke="#C9A84C" stroke-width="1.5" fill="none"/><circle cx="16" cy="16" r="4" fill="#C9A84C"/></svg></div>
+        <div class="tenk-card-title">Muy duradero</div>
+        <div class="tenk-card-desc">Resiste el uso cotidiano, el sudor y el roce sin perder forma ni brillo.</div>
+      </div>
+      <div class="tenk-card">
+        <div class="tenk-icon"><svg width="32" height="32" viewBox="0 0 32 32" fill="none" aria-hidden="true"><circle cx="16" cy="16" r="12" stroke="#C9A84C" stroke-width="1.5" fill="none"/><path d="M10 16 L14 20 L22 12" stroke="#C9A84C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+        <div class="tenk-card-title">Oro real</div>
+        <div class="tenk-card-desc">No es bañado ni enchapado. Oro sólido con certificación auténtica.</div>
+      </div>
+      <div class="tenk-card">
+        <div class="tenk-icon"><svg width="32" height="32" viewBox="0 0 32 32" fill="none" aria-hidden="true"><rect x="4" y="8" width="24" height="16" rx="2" stroke="#C9A84C" stroke-width="1.5" fill="none"/><path d="M4 13h24" stroke="#C9A84C" stroke-width="1" opacity="0.5"/><circle cx="10" cy="19" r="2" fill="#C9A84C" opacity="0.7"/></svg></div>
+        <div class="tenk-card-title">Precio accesible</div>
+        <div class="tenk-card-desc">La mejor relación calidad-precio en joyería de oro real del mercado.</div>
+      </div>
+      <div class="tenk-card">
+        <div class="tenk-icon"><svg width="32" height="32" viewBox="0 0 32 32" fill="none" aria-hidden="true"><path d="M16 4 C16 4 6 10 6 18 C6 23 10.5 27 16 27 C21.5 27 26 23 26 18 C26 10 16 4 16 4Z" stroke="#C9A84C" stroke-width="1.5" fill="none"/><circle cx="16" cy="18" r="4" stroke="#C9A84C" stroke-width="1" fill="rgba(201,168,76,0.15)"/></svg></div>
+        <div class="tenk-card-title">Brillo intenso</div>
+        <div class="tenk-card-desc">Acabado pulido que mantiene su luminosidad con cuidado básico.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ENVÍO Y ENTREGA -->
+<section class="envio-section" id="envio">
+  <div class="envio-inner">
+    <div class="section-tag section-tag--block-center">Entrega y envío</div>
+    <h2 class="section-title section-title--center">Recíbelo donde <em>tú estés</em></h2>
+    <p class="envio-desc">Trabajamos para que tu joyería llegue de forma segura. Si estás en la Zona Metropolitana de Guadalajara, coordinamos la entrega en persona sin costo extra.</p>
+    <div class="envio-grid">
+      <div class="tenk-card tenk-card--envio">
+        <div class="tenk-icon">
+          <svg width="32" height="32" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+            <path d="M16 4C11.582 4 8 7.582 8 12c0 6.627 8 16 8 16s8-9.373 8-16c0-4.418-3.582-8-8-8z" stroke="#C9A84C" stroke-width="1.5" fill="none"/>
+            <circle cx="16" cy="12" r="3" stroke="#C9A84C" stroke-width="1.5" fill="none"/>
+          </svg>
+        </div>
+        <div class="tenk-card-title">Entrega personal ZMG</div>
+        <div class="tenk-card-desc">Guadalajara, Zapopan, Tlaquepaque, Tonalá y toda la zona metropolitana. Sin cargos extra, coordinamos el punto de encuentro por WhatsApp.</div>
+      </div>
+      <div class="tenk-card tenk-card--envio">
+        <div class="tenk-icon">
+          <svg width="32" height="32" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+            <rect x="3" y="10" width="22" height="14" rx="2" stroke="#C9A84C" stroke-width="1.5" fill="none"/>
+            <path d="M25 14h3l3 5v5h-6V14z" stroke="#C9A84C" stroke-width="1.5" fill="none" stroke-linejoin="round"/>
+            <circle cx="9" cy="26" r="2" stroke="#C9A84C" stroke-width="1.5" fill="none"/>
+            <circle cx="23" cy="26" r="2" stroke="#C9A84C" stroke-width="1.5" fill="none"/>
+          </svg>
+        </div>
+        <div class="tenk-card-title">Envío a todo México</div>
+        <div class="tenk-card-desc">Para pedidos fuera de la ZMG enviamos por paquetería segura. Pregunta costos y tiempos por WhatsApp antes de confirmar.</div>
+      </div>
+      <div class="tenk-card tenk-card--envio">
+        <div class="tenk-icon">
+          <svg width="32" height="32" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+            <path d="M28 10 L16 20 L4 10" stroke="#C9A84C" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+            <rect x="4" y="8" width="24" height="18" rx="2" stroke="#C9A84C" stroke-width="1.5" fill="none"/>
+          </svg>
+        </div>
+        <div class="tenk-card-title">Atención personalizada</div>
+        <div class="tenk-card-desc">Te asesoramos directamente para encontrar la pieza ideal. Resolvemos tus dudas, confirmamos disponibilidad y coordinamos tu entrega con atención dedicada.</div>
+      </div>
+    </div>
+    <div class="envio-badge">
+      <svg viewBox="0 0 32 32" aria-hidden="true">
+        <path d="M16 4C11.582 4 8 7.582 8 12c0 6.627 8 16 8 16s8-9.373 8-16c0-4.418-3.582-8-8-8z" stroke="#C9A84C" stroke-width="1.5" fill="none"/>
+        <circle cx="16" cy="12" r="3" fill="#C9A84C"/>
+      </svg>
+      <span>Entrega personal en <strong>ZMG · Jalisco</strong> · Guadalajara · Zapopan · Tlaquepaque · Tonalá</span>
+    </div>
+  </div>
+</section>
+
+<!-- NUESTRA HISTORIA -->
+<section class="historia-section" aria-labelledby="historia-heading">
+  <div class="historia-inner">
+    <div class="section-tag">Nuestra historia</div>
+    <h2 class="section-title historia-heading--mb" id="historia-heading">Nació en Guadalajara,<br><em>creció con el oro</em></h2>
+
+    <blockquote class="historia-quote">
+      "El oro verdadero no debería ser inalcanzable —<br>
+      solo hace falta saber dónde buscarlo."
+    </blockquote>
+
+    <div class="historia-body">
+      <div>
+        <p class="historia-p">OROVA nació de una convicción sencilla: que quien quiere portar oro de verdad no debería conformarse con bañados, imitaciones ni precios inflados por intermediarios. En la Zona Metropolitana de Guadalajara decidimos construir algo diferente.</p>
+        <p class="historia-p">Desde el principio elegimos el oro 10K de forma deliberada. No como segunda opción, sino como la respuesta más honesta para quien usa su joyería todos los días: una aleación con 41.7% de oro puro que resiste el tiempo, el sudor y el roce sin perder su brillo ni su forma.</p>
+        <p class="historia-p">Hoy atendemos pedidos en toda la República, pero seguimos siendo lo que fuimos desde el primer día: un equipo pequeño que entrega en persona, responde por WhatsApp y garantiza cada pieza con su nombre.</p>
+      </div>
+      <div class="historia-pillars">
+        <div class="historia-pillar">
+          <div class="historia-pillar-title">Autenticidad garantizada</div>
+          <div class="historia-pillar-desc">Solo oro 10K verificado. Jamás bañado, jamás enchapado. Cada pieza certifica lo que promete.</div>
+        </div>
+        <div class="historia-pillar">
+          <div class="historia-pillar-title">Stock real y transparente</div>
+          <div class="historia-pillar-desc">Publicamos únicamente las piezas que tenemos en mano. Sin catálogos inflados ni tiempos de espera ocultos.</div>
+        </div>
+        <div class="historia-pillar">
+          <div class="historia-pillar-title">Trato directo y personal</div>
+          <div class="historia-pillar-desc">Atención uno a uno por WhatsApp. Sin bots, sin formularios. Una persona real que conoce cada pieza del catálogo.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="historia-firma">
+      <div class="historia-firma-line"></div>
+      <div class="historia-firma-text">OROVA · Oro 10K · Guadalajara, Jalisco</div>
+      <div class="historia-firma-line"></div>
+    </div>
+  </div>
+</section>
+
+<div class="social-strip">
+  <div class="social-strip-left">Síguenos en <em>Instagram</em><br>y escríbenos por WhatsApp</div>
+  <div class="social-links">
+    <a href="https://www.instagram.com/orova_gold?igsh=MW9mbTE3ZmhqdWhraQ%3D%3D&utm_source=qr" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="Instagram de OROVA">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#icon-ig"/></svg>
+      @orova_gold
+    </a>
+    <a id="socialWa" href="https://wa.me/522295953489" class="social-link wa" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp de OROVA">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#icon-wa"/></svg>
+      Contáctanos
+    </a>
+  </div>
+</div>
+
+<section class="cta-section" id="contacto">
+  <div class="cta-bg"></div><div class="cta-diamond"></div><div class="cta-diamond-inner"></div>
+  <div class="section-tag section-tag--cta">Estamos listos para atenderte</div>
+  <h2>Haz tu pedido <em>ahora</em></h2>
+  <p>Escríbenos por WhatsApp, dinos qué pieza te interesa y te asesoramos de inmediato. Entrega personal en ZMG Jalisco.</p>
+  <a id="ctaWa" href="https://wa.me/522295953489" class="cta-wa" target="_blank" rel="noopener noreferrer" aria-label="Escribir a OROVA por WhatsApp">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#icon-wa"/></svg>
+    Escribir por WhatsApp
+  </a>
+</section>
+
+</main>
+<footer>
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <a href="#" class="orova-logo">
+        <svg class="mark" viewBox="0 0 100 100" fill="none" aria-hidden="true">
+          <polygon points="50,5 95,50 50,95 5,50" stroke="#C9A84C" stroke-width="2.5" fill="none"/>
+          <polygon points="50,20 80,50 50,80 20,50" stroke="#C9A84C" stroke-width="1.5" fill="none"/>
+          <line x1="50" y1="5" x2="50" y2="95" stroke="#C9A84C" stroke-width="0.8" stroke-dasharray="3 4" opacity="0.6"/>
+          <circle cx="50" cy="50" r="6" fill="#C9A84C"/>
+        </svg>
+        <div class="wordmark"><span class="name">OROVA</span><span class="sub">Oro 10K</span></div>
+      </a>
+      <p>Joyería de oro 10K auténtica. Piezas diseñadas para quienes valoran la elegancia real. Entrega personal en ZMG Jalisco.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Catálogo</h4>
+      <ul>
+        <li><a href="#catalogo" data-filter-link="CAD">Cadenas</a></li>
+        <li><a href="#catalogo" data-filter-link="ARE">Aretes</a></li>
+        <li><a href="#catalogo" data-filter-link="PUL">Pulseras</a></li>
+        <li><a href="#catalogo" data-filter-link="ARR">Arracadas</a></li>
+        <li><a href="#catalogo" data-filter-link="HUG">Huggies</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Contacto</h4>
+      <ul>
+        <li><a id="footerWa" href="https://wa.me/522295953489" target="_blank" rel="noopener noreferrer">WhatsApp: Contáctanos</a></li>
+        <li><a href="https://www.instagram.com/orova_gold" target="_blank" rel="noopener noreferrer">Instagram: @orova_gold</a></li>
+        <li><a href="#envio">Entrega en ZMG Jalisco</a></li>
+        <li><a href="#sobre-el-oro">¿Por qué oro 10K?</a></li>
+        <li><a href="#contacto">Hacer un pedido</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© <span id="copyrightYear"></span> <span>OROVA</span>. Todos los derechos reservados.</p>
+    <p>Oro 10K · <span>Auténtico y certificado</span> · <span>ZMG Jalisco</span></p>
+  </div>
+</footer>
+
+
+<!-- MODAL PRODUCTO -->
+<div class="product-modal-overlay" id="productModal" role="dialog" aria-modal="true" aria-label="Detalle del producto">
+  <div class="product-modal">
+    <button class="product-modal-close" id="modalClose" aria-label="Cerrar">&times;</button>
+    <div class="product-modal-img" id="modalImg"></div>
+    <div class="product-modal-info">
+      <div class="product-modal-code" id="modalCode"></div>
+      <div class="product-modal-name" id="modalName"></div>
+      <div class="product-modal-price" id="modalPrice"></div>
+      <div class="product-modal-stock" id="modalStock"></div>
+      <div class="product-modal-divider"></div>
+      <div class="product-modal-cat" id="modalCat"></div>
+      <a href="#" class="product-modal-wa" id="modalWa" target="_blank" rel="noopener noreferrer">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#icon-wa"/></svg>
+        Pedir por WhatsApp
+      </a>
+    </div>
+  </div>
+</div>
+</body>
+</html>
