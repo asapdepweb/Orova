@@ -19,12 +19,8 @@
   <meta name="theme-color" content="#1A1714" />
 
   <!--
-    SEGURIDAD — notas para el servidor (no se pueden aplicar solo desde HTML):
-    Agregar en la configuración del servidor web (nginx/apache/headers):
-      X-Content-Type-Options: nosniff
-      X-Frame-Options: DENY
-      Referrer-Policy: strict-origin-when-cross-origin
-      Permissions-Policy: camera=(), microphone=(), geolocation=()
+    SEGURIDAD: frame-ancestors en meta CSP es IGNORADO por todos los browsers.
+    Los headers reales están en el archivo _headers del proyecto.
   -->
 
   <!--

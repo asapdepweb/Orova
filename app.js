@@ -62,7 +62,7 @@ function waUrl(msg) {
 // El ícono SVG fallback se referencia por clave (data-icon-key),
 // nunca se almacena HTML crudo en atributos del DOM.
 // ============================================================
-var WA_ICON = '<svg viewBox="0 0 24 24" style="width:15px;height:15px;fill:#fff;flex-shrink:0" aria-hidden="true"><use href="#icon-wa"/></svg>';
+var WA_ICON = '<svg viewBox="0 0 24 24" class="wa-btn-icon" aria-hidden="true"><use href="#icon-wa"/></svg>';
 
 function renderProducts(f) {
   var grid = document.getElementById('catalogGrid');
@@ -95,7 +95,7 @@ function renderProducts(f) {
     var stockTxt = p.stock === 1 ? '1 pieza disponible' : p.stock + ' piezas disponibles';
     var priceHTML = p.price
       ? '<div class="product-price">' + esc(p.price) + '</div>'
-      : '<div class="product-price" style="font-size:1rem;color:var(--text-muted)">Consultar precio</div>';
+      : '<div class="product-price product-price--consult">Consultar precio</div>';
 
     // Almacena solo la clave de categoría, nunca HTML crudo en el DOM.
     // Si p.img viene sin extensión (ej. 'img/productos/ARE-002'), se sirve
@@ -120,7 +120,7 @@ function renderProducts(f) {
       mediaHTML = getIcon(p.code);
     }
 
-    return '<div class="product-card" style="animation-delay:' + (i * 0.07) + 's">'
+    return '<div class="product-card" style="--anim-delay:' + (i * 0.07) + 's">'
       + '<div class="product-img">' + badge + mediaHTML + '</div>'
       + '<div class="product-info">'
         + '<div class="product-code">' + esc(p.code) + ' &middot; Oro 10K</div>'
@@ -396,7 +396,7 @@ document.getElementById('copyrightYear').textContent = new Date().getFullYear();
       var hasExt  = /\.(webp|jpe?g|png|avif)$/i.test(p.img);
       var webpSrc = hasExt ? p.img : p.img + '.webp';
       var jpgSrc  = hasExt ? p.img : p.img + '.jpg';
-      var imgTag  = '<img src="' + esc(jpgSrc) + '" alt="' + esc(p.name) + '" style="width:100%;height:100%;object-fit:cover">';
+      var imgTag  = '<img src="' + esc(jpgSrc) + '" alt="' + esc(p.name) + '" class="modal-img-fill">';
       modalImg.innerHTML = hasExt
         ? imgTag
         : '<picture><source srcset="' + esc(webpSrc) + '" type="image/webp">' + imgTag + '</picture>';

@@ -116,7 +116,7 @@
     .catalog-grid { display: grid; grid-template-columns: repeat(auto-fill,minmax(270px,1fr)); gap: 20px; }
     .catalog-empty { grid-column: 1/-1; text-align: center; padding: 80px 20px; color: var(--text-muted); font-size: 0.9rem; line-height: 1.9; }
     .product-card { background: var(--dark-2); position: relative; overflow: hidden; transition: transform 0.4s ease; }
-    .product-card.is-visible { animation: fadeUp 0.7s ease both; }
+    .product-card.is-visible { animation: fadeUp 0.7s ease var(--anim-delay, 0s) both; }
     .product-card:hover { transform: translateY(-5px); }
     .product-img { width: 100%; aspect-ratio: 1/1; background: var(--dark-3); display: flex; align-items: center; justify-content: center; position: relative; overflow: hidden; }
     .product-img img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.5s; }
@@ -265,6 +265,11 @@
       .section-sub { text-align: left; }
       .envio-grid { grid-template-columns: 1fr; }
     }
+
+    /* Clases generadas por JS */
+    .wa-btn-icon { width: 15px; height: 15px; fill: #fff; flex-shrink: 0; }
+    .modal-img-fill { width: 100%; height: 100%; object-fit: cover; }
+    .product-price--consult { font-size: 1rem; color: var(--text-muted); }
 
     /* MODAL PRODUCTO */
     .product-img { cursor: zoom-in; }
